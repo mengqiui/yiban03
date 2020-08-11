@@ -1,0 +1,35 @@
+$color-ff6:#FF6600;
+$color-005:#0075c1;
+$text-777:#777;
+
+.mt-55{margin-top:55px;}
+.mt-45{margin-top:45px;}
+.text-blue{color:$color-005;}
+.text-ju{color:$color-ff6;}
+.text-first{color:$color-005;font-size:24px;font-style: italic;margin-right:6px;}
+.clear-both{clear:both;}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all .5s;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0;
+}
+
+.fade-transform-leave-active,
+.fade-transform-enter-active {
+  transition: all .5s;
+}
+
+.fade-transform-enter {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.fade-transform-leave-to {
+  opacity: 0;
+  transform: translateX(10px);
+}
